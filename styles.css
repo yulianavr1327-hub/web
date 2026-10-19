@@ -1,0 +1,1124 @@
+/* ===========================
+   GOOGLE FONTS
+=========================== */
+
+:root{
+
+--Rosado:#D9A6A6;
+--verdeClaro:#adeab5;
+--beige:#f9aee0;
+--blanco:#ffffff;
+--gris:#010101;
+--negro:#222;
+
+}
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+background:var(--beige);
+color:var(--negro);
+overflow-x:hidden;
+
+}
+
+/*======================
+TIPOGRAFÍA
+======================*/
+
+h1,h2,h3,h4,h5{
+
+font-family:'Cormorant Garamond',serif;
+font-weight:700;
+color:var(--verde);
+
+}
+
+h1{
+
+font-size:3.8rem;
+line-height:1.1;
+
+}
+
+h2{
+
+font-size:2.8rem;
+margin-bottom:30px;
+
+}
+
+p{
+
+font-size:18px;
+line-height:1.8;
+color:#555;
+
+}
+
+/*======================
+TOP BAR
+======================*/
+
+.top-bar{
+
+background:var(--rosado);
+color:(--rosado);
+padding:10px;
+font-size:15px;
+font-weight:500;
+
+}
+
+/*======================
+NAVBAR
+======================*/
+
+.bg-beige{
+
+background:var(--beige);
+
+}
+
+.navbar{
+
+padding:18px 0;
+transition:.4s;
+
+}
+
+.logo{
+
+width: 180px;
+height:90px;
+
+}
+
+.nav-link{
+
+font-weight:500;
+margin:0 12px;
+color:var(--verde)!important;
+transition:.3s;
+
+}
+
+.nav-link:hover{
+
+color:var(--verdeClaro)!important;
+
+}
+
+/*======================
+BOTONES
+======================*/
+
+.btn-success{
+
+background:var(--verde);
+border:none;
+padding:14px 30px;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+
+}
+
+.btn-success:hover{
+
+background:#93f09d;
+transform:translateY(-3px);
+
+}
+
+.btn-outline-success{
+
+border:2px solid var(--verde);
+color:var(--verde);
+border-radius:50px;
+padding:14px 30px;
+font-weight:600;
+
+}
+
+.btn-outline-success:hover{
+
+background:var(--verde);
+color:white;
+
+}
+
+/*======================
+HERO
+======================*/
+
+.hero{
+
+padding:90px 0;
+position:relative;
+
+}
+
+.hero h1{
+
+margin-bottom:25px;
+
+}
+
+.hero p{
+
+margin-bottom:35px;
+
+}
+
+.hero-product{
+
+max-width:430px;
+animation:float 4s ease infinite;
+
+}
+
+/*======================
+ICONOS HERO
+======================*/
+
+.hero-icons{
+
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+margin-top:35px;
+
+}
+
+.hero-icons div{
+
+display:flex;
+align-items:center;
+gap:10px;
+font-size:16px;
+font-weight:500;
+
+}
+
+.hero-icons i{
+
+font-size:28px;
+color:var(--verde);
+
+}
+
+/*======================
+SECCIONES
+======================*/
+
+.section{
+
+padding:90px 0;
+
+}
+
+/*======================
+CARDS
+======================*/
+
+.problem-card,
+.benefit-card{
+
+background:white;
+padding:35px;
+border-radius:20px;
+text-align:center;
+transition:.4s;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.problem-card:hover,
+.benefit-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.problem-card i{
+
+font-size:45px;
+color:var(--verde);
+
+}
+
+.problem-card h5{
+
+margin-top:20px;
+
+}
+
+
+table{
+
+background:white;
+border-radius:15px;
+overflow:hidden;
+
+}
+
+table th{
+
+background:var(--verde);
+color:white;
+
+}
+
+/*======================
+FAQ
+======================*/
+
+.accordion-button{
+
+font-weight:600;
+
+}
+
+.accordion-button:not(.collapsed){
+
+background:#faaee2;
+color:var(--verde);
+
+}
+
+/*======================
+FORMULARIO
+======================*/
+
+input,
+textarea{
+
+padding:15px;
+border-radius:15px!important;
+border:1px solid #ddd!important;
+
+}
+
+input:focus,
+textarea:focus{
+
+box-shadow:none!important;
+border:2px solid var(--verde)!important;
+
+}
+
+/*======================
+FOOTER
+======================*/
+
+footer{
+
+background:var(--verde);
+color:white;
+padding:70px 0;
+
+}
+
+footer a{
+
+color:white;
+text-decoration:none;
+
+}
+
+footer a:hover{
+
+opacity:.8;
+
+}
+
+/*======================
+WHATSAPP
+======================*/
+
+.whatsapp{
+
+position:fixed;
+right:25px;
+bottom:25px;
+width:65px;
+height:65px;
+background:#25D366;
+color:white;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:35px;
+z-index:9999;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+transition:.3s;
+
+}
+
+.whatsapp:hover{
+
+transform:scale(1.1);
+
+}
+
+/*======================
+ANIMACIONES
+======================*/
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+/*======================
+SCROLLBAR
+======================*/
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:var(--verde);
+border-radius:30px;
+
+}
+
+/*======================
+RESPONSIVE
+======================*/
+
+@media(max-width:991px){
+
+h1{
+
+font-size:2.8rem;
+
+}
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero-icons{
+
+justify-content:center;
+
+}
+
+.hero-product{
+
+margin-top:50px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+h1{
+
+font-size:2.2rem;
+
+}
+
+h2{
+
+font-size:2rem;
+
+}
+
+.section{
+
+padding:60px 0;
+
+}
+
+.btn{
+
+width:100%;
+margin-bottom:15px;
+
+}
+
+.logo{
+
+height:80px;
+
+}
+
+}
+
+.inspiracion-quienes {
+    max-width: 1150px;
+    margin: 80px auto;
+    padding: 0 25px;
+}
+
+.titulo-inspiracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.titulo-inspiracion h2 {
+    font-family: "Cormorant Garamond", serif;
+    color: #315638;
+    font-size: 44px;
+    margin: 0;
+}
+
+.titulo-inspiracion p {
+    color: #718171;
+    margin: 5px 0 0;
+}
+
+.linea-decorativa {
+    width: 70px;
+    height: 2px;
+    background: #7FA07E;
+}
+
+.inspiracion-quienes {
+    max-width: 1150px;
+    margin: 80px auto;
+    padding: 0 25px;
+}
+
+.titulo-inspiracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.titulo-inspiracion h2 {
+    font-family: "Cormorant Garamond", serif;
+    color: #315638;
+    font-size: 44px;
+    margin: 0;
+}
+
+.titulo-inspiracion p {
+    color: #718171;
+    margin: 5px 0 0;
+}
+
+.linea-decorativa {
+    width: 70px;
+    height: 2px;
+    background: #7FA07E;
+}
+
+.inspiracion-quienes {
+    max-width: 1150px;
+    margin: 80px auto;
+    padding: 0 25px;
+}
+
+.titulo-inspiracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.titulo-inspiracion h2 {
+    font-family: "Cormorant Garamond", serif;
+    color: #315638;
+    font-size: 44px;
+    margin: 0;
+}
+
+.titulo-inspiracion p {
+    color: #718171;
+    margin: 5px 0 0;
+}
+
+.linea-decorativa {
+    width: 70px;
+    height: 2px;
+    background: #7FA07E;
+}
+
+.pilares-quienes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.pilar {
+    background: #EEF1E3;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pilar:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(63, 107, 67, 0.12);
+}
+
+.icono-pilar {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #3F6B43;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+}
+
+.pilar h3 {
+    font-family: "Cormorant Garamond", serif;
+    color: #315638;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.pilar p {
+    color: #526052;
+    line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+
+    .pilares-quienes {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* =========================================
+   CONOCE BIOCABEL
+========================================= */
+
+.conoce-biocabel {
+    background: #f7f2e8;
+    padding: 70px 6% 0;
+    color: #315638;
+}
+
+
+/* HERO */
+
+.producto-hero {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 520px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.producto-info {
+    padding: 30px 0;
+}
+
+
+.producto-subtitulo {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: #527557;
+}
+
+
+.producto-info h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 64px;
+    line-height: .95;
+    color: #174d32;
+    margin: 15px 0;
+}
+
+
+.linea-verde {
+    width: 70px;
+    height: 3px;
+    background: #5d8c63;
+    margin: 20px 0;
+}
+
+
+.producto-info > p {
+    max-width: 570px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #526052;
+}
+
+
+/* DATOS DEL PRODUCTO */
+
+.datos-producto {
+    display: flex;
+    gap: 25px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+
+.datos-producto > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #b9c7b4;
+}
+
+
+.datos-producto > div:last-child {
+    border-right: none;
+}
+
+
+.datos-producto i {
+    font-size: 25px;
+    color: #3f6b43;
+}
+
+
+.datos-producto span {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #526052;
+}
+
+
+.datos-producto strong {
+    color: #315638;
+}
+
+
+/* BOTÓN */
+
+.btn-comprar {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 15px 30px;
+
+    background: #3f6b43;
+    color: white;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+    transition: .3s;
+}
+
+
+.btn-comprar:hover {
+    background: #315638;
+    transform: translateY(-3px);
+    color: white;
+}
+
+
+/* IMAGEN PRODUCTO */
+
+.producto-imagen {
+    height: 500px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.producto-imagen .circulo-verde {
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+
+    background: #d7e1c8;
+
+    border-radius: 50%;
+
+    z-index: 0;
+}
+
+
+.producto-imagen img {
+    position: relative;
+    z-index: 2;
+
+    max-width: 80%;
+    max-height: 480px;
+
+    object-fit: contain;
+
+    filter: drop-shadow(0 20px 20px rgba(40, 70, 40, .20));
+}
+
+
+/* =========================================
+   INGREDIENTES + PARA QUIÉN
+========================================= */
+
+.informacion-producto {
+    max-width: 1200px;
+    margin: 60px auto 30px;
+
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 30px;
+}
+
+
+.tarjeta-producto {
+    background: #edf1e4;
+
+    border-radius: 18px;
+
+    padding: 35px;
+
+    box-shadow: 0 10px 30px rgba(63, 107, 67, .07);
+}
+
+
+.titulo-tarjeta {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+
+.icono-titulo {
+    width: 55px;
+    height: 55px;
+
+    min-width: 55px;
+
+    border-radius: 50%;
+
+    background: #3f6b43;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 23px;
+}
+
+
+.titulo-tarjeta h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 34px;
+    color: #315638;
+    margin: 0 0 5px;
+}
+
+
+.titulo-tarjeta p {
+    margin: 0;
+    color: #607060;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   INGREDIENTES
+========================================= */
+
+.ingredientes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.ingrediente {
+    text-align: center;
+}
+
+
+.ingrediente img {
+    width: 105px;
+    height: 105px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #f7f2e8;
+
+    margin-bottom: 15px;
+}
+
+
+.ingrediente h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+    color: #315638;
+    margin-bottom: 8px;
+}
+
+
+.ingrediente p {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #526052;
+}
+
+
+/* =========================================
+   PARA QUIÉN
+========================================= */
+
+.lista-publico {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+
+.lista-publico li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    margin-bottom: 18px;
+
+    font-family: "Poppins", sans-serif;
+    color: #526052;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.lista-publico i {
+    color: #3f6b43;
+    font-size: 19px;
+    margin-top: 1px;
+}
+
+
+/* =========================================
+   FRANJA FINAL
+========================================= */
+
+.franja-producto {
+    max-width: 1200px;
+    margin: 30px auto 0;
+
+    background: #8da58b;
+
+    border-radius: 18px 18px 0 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 25px 10px;
+
+    color: white;
+}
+
+
+.franja-producto > div {
+    text-align: center;
+
+    padding: 10px 20px;
+
+    border-right: 1px solid rgba(255,255,255,.35);
+}
+
+
+.franja-producto > div:last-child {
+    border-right: none;
+}
+
+
+.franja-producto i {
+    display: block;
+
+    width: 45px;
+    height: 45px;
+
+    margin: 0 auto 10px;
+
+    border-radius: 50%;
+
+    background: #315638;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+.franja-producto strong {
+    display: block;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+
+.franja-producto span {
+    display: block;
+
+    margin-top: 4px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+
+    opacity: .9;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .producto-hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .producto-info {
+        order: 1;
+    }
+
+    .producto-imagen {
+        order: 2;
+        height: 400px;
+    }
+
+    .linea-verde {
+        margin: 20px auto;
+    }
+
+    .producto-info > p {
+        margin: auto;
+    }
+
+    .datos-producto {
+        justify-content: center;
+    }
+
+    .informacion-producto {
+        grid-template-columns: 1fr;
+    }
+
+    .franja-producto {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .franja-producto > div:nth-child(2) {
+        border-right: none;
+    }
+
+    .franja-producto > div {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .producto-info h1 {
+        font-size: 48px;
+    }
+
+    .producto-imagen .circulo-verde {
+        width: 300px;
+        height: 300px;
+    }
+
+    .producto-imagen img {
+        max-width: 90%;
+    }
+
+    .ingredientes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .franja-producto {
+        grid-template-columns: 1fr;
+    }
+
+    .franja-producto > div {
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,.25);
+        padding-bottom: 20px;
+    }
+
+    .franja-producto > div:last-child {
+        border-bottom: none;
+    }
+}
